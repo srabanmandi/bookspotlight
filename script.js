@@ -131,11 +131,9 @@ function searchBook() {
 }
 
 // Sorting functionality
-document.querySelectorAll("#sorting-option option").forEach((option) => {
-  option.addEventListener("click", () => {
-    renderBooks(allBooksData);
-  });
-});
+document.querySelector('#sorting-option').addEventListener('change',()=>{
+  renderBooks(allBooksData);
+})
 // Sort books based on title or published date
 function sortBooks(books) {
   
@@ -171,11 +169,7 @@ function sortBooks(books) {
 }
 
 // View functionality
-document.querySelectorAll("#view-option option").forEach((view) => {
-  view.addEventListener("click", (e) => {
-    setView(e.target.value);
-  });
-});
+document.querySelector('#view-option').addEventListener('change', setView)
 // Set how the books are displayed either as a grid or a list
 function setView() {
   const view = document.querySelector("#view-option").value;  
