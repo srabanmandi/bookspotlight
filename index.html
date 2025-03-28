@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookSpotlight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <h1>BookSpotlight</h1>
+    </div>
+    <div class="search-container">
+        <select name="" id="search-option">
+            <option value="title">Title</option>
+            <option value="authors">Author</option>
+        </select>
+        <input type="text" name="search" id="search-box" , placeholder="Search...">
+        <button class="search-btn">🔍</button>
+    </div>
+    <div class="functions">
+        <div class="select-container">
+            <label for="sorting-option">Sort by:</label>
+            <select name="" id="sorting-option">
+                <option value="title-ascending">Title(A-Z)</option>
+                <option value="title-descending">Title(Z-A)</option>
+                <option value="publishedDate-descending">Newest</option>
+                <option value="publishedDate-ascending">Oldest</option>
+            </select>
+        </div>
+        <div class="select-container">
+            <label for="view-option">View: </label>
+            <select name="" id="view-option">
+                <option value="grid">Grid</option>
+                <option value="list">List</option>
+            </select>
+        </div>
+    </div>
+    <div class="grid-container">
+        <!-- Books will be rendered here -->
+    </div>
+    
+    <div class="pages">
+        <button class="previous-btn">
+            ←
+        </button>
+        <span class="page-content">
+            <span class="current-page">1</span> of
+            <span class="total-pages">5</span>
+        </span>
+        <button class="next-btn">
+            →
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
