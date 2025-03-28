@@ -1,4 +1,4 @@
-# Book Catalog Web App
+# BookSpotlight
 
 ## Overview
 This is a JavaScript-based web application that fetches book data from an API and displays it in a grid or list format. Users can search, sort, and paginate through the books. The app also allows toggling between grid and list views for better user experience.
