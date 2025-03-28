@@ -27,11 +27,11 @@ This is a JavaScript-based web application that fetches book data from an API an
 ## Setup and Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/srabanmandi/bookspotlight.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd your-repository
+   cd bookspotlight
    ```
 3. Open `index.html` in your browser to run the application.
 
